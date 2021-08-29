@@ -1,38 +1,60 @@
 .App {
-  text-align: center;
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #dadde1;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  padding: 15px;
+  margin: 20px;
+  max-width: 1000px;
+  border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2 {
+  font-family: "Arvo", serif;
+  position: relative;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+ul {
+  list-style-type: none;
+  padding-top: 40px;
+  padding-left: 5px;
+  text-transform: capitalize;
+  position: relative;
+}
+img {
+  width: 60px;
+}
+.form-group {
+  width: auto !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col-2 {
+  position: relative;
+  left: 100px;
+  padding-top: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.col-2,
+.col-3 {
+  font-family: "Antic Slab", serif;
 }
 
-.App-link {
-  color: #61dafb;
+.search-form {
+  position: relative;
+  margin-top: 60px;
+  width: 400px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  position: relative;
+  left: 5px;
+  color: hsla(blue);
+}
+.active {
+  color: black;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
 }
