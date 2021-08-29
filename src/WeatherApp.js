@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import ReactAnimatedWeather from 'react-animated-weather';
 
 export default function Weather() {
   let weatherData = {
@@ -57,6 +58,40 @@ export default function Weather() {
               </span>
             </div>
           </div>
+          <div class="row">
+              <div class="col-sm-2">
+                  <div class="forecast-day">Tue</div>
+                  <div class="forecast-icon">
+                      <ReactAnimatedWeather icon="CLEAR_DAY" color="orange" size="30" animate={true}/>
+                      </div>
+                      <div class="forecast-temperature">20°</div></div>
+                      <div class="col-sm-2">
+                          <div class="forecast-day">Wed</div>
+                          <div class="forecast-icon">
+                              <ReactAnimatedWeather icon="CLEAR_DAY" color="orange" size="30" animate={true}/>
+                              </div>
+                              <div class="forecast-temperature">21°</div>
+                              </div>
+                              <div class="col-sm-2"><div class="forecast-day">Thu</div>
+                              <div class="forecast-icon">
+                                  <ReactAnimatedWeather icon="CLEAR_DAY" color="orange" size="30" animate={true}/>
+                                  </div>
+                                  <div class="forecast-temperature">20°</div>
+                                  </div>
+                                  <div class="col-sm-2">
+                                      <div class="forecast-day">Fri</div>
+                                      <div class="forecast-icon">
+                                          <ReactAnimatedWeather icon="CLEAR_DAY" color="orange" size="30" animate={true}/>
+                                          </div>
+                                          <div class="forecast-temperature">20°</div>
+                                          </div>
+                                          <div class="col-sm-2">
+                                              <div class="forecast-day">Sat</div>
+                                              <div class="forecast-icon">
+                                                  <ReactAnimatedWeather icon="CLEAR_DAY" color="orange" size="30" animate={true}/>
+                                                  </div><div class="forecast-temperature">20°</div>
+                                                  </div>
+                                                  </div>
         </div>
       </div>
       <div className="Footer">
