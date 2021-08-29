@@ -61,7 +61,7 @@ export default function Weather() {
       </div>
       <div className="Footer">
         <p className="footer">
-          <a href="https://github.com/maJestic17/my-weather-project">
+          <a href="https://github.com/maJestic17/Weather-App-React-">
             Open-source code
           </a>{" "}
           by Daria Sukhacheva
